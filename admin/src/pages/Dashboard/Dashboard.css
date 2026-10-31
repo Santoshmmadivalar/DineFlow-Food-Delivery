@@ -1,0 +1,27 @@
+.dash{width:100%;max-width:1000px;padding:20px 4% 40px 4%;color:#505050;font-size:14px}
+.dash-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.dash-head h3{margin:0;color:#222}
+.dash select{padding:7px 10px;border:1px solid #c9c9c9;border-radius:8px;font:inherit}
+.dash-err{color:#c0392b}
+.dash-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.dash-card{border:1px solid #e3e3e3;border-radius:12px;padding:14px;background:#fff;display:flex;flex-direction:column}
+.dash-card b{font-size:22px;color:#222}.dash-card span{color:#777;font-size:13px}
+.dash-panel{border:1px solid #e3e3e3;border-radius:12px;padding:16px;background:#fff;margin-bottom:16px}
+.dash-panel h4{margin:0 0 12px;color:#222}
+.dash-two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.bars{display:flex;align-items:flex-end;gap:6px;height:190px;padding-top:18px}
+.bar-col{flex:1;min-width:0;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:4px}
+.bar-col .bar{width:100%;max-width:38px;background:tomato;border-radius:5px 5px 0 0;min-height:2px}
+.bar-col small{color:#777;font-size:10px;white-space:nowrap}
+.bar-val{font-size:10px;color:#555;white-space:nowrap}
+.hrow{display:grid;grid-template-columns:120px 1fr 28px;gap:10px;align-items:center;margin:8px 0}
+.hrow span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hbar{background:#f1f1f1;border-radius:99px;height:8px;overflow:hidden}.hbar i{display:block;height:100%;background:tomato}
+.hrow b{text-align:right;color:#222}
+.recent{display:grid;grid-template-columns:1fr auto auto auto;gap:12px;align-items:center;padding:10px 0;border-top:1px solid #eee}
+.recent:first-of-type{border-top:0}
+.recent small{display:block;color:#888}
+.recent em{font-style:normal;font-size:12px;border:1px solid #ddd;border-radius:99px;padding:2px 10px}
+.recent em.paid{color:#16a34a;border-color:#16a34a66}.recent em.due{color:#a35f00;border-color:#a35f0066}
+.muted{color:#888}
+@media(max-width:800px){.dash-two{grid-template-columns:1fr}.recent{grid-template-columns:1fr auto}}

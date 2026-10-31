@@ -1,0 +1,290 @@
+[
+  {
+    "id": "1",
+    "name": "Greek salad",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 240,
+    "image": "/foodify/food_1.png",
+    "category": "Salad",
+    "veg": true
+  },
+  {
+    "id": "2",
+    "name": "Veg salad",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 360,
+    "image": "/foodify/food_2.png",
+    "category": "Salad",
+    "veg": true
+  },
+  {
+    "id": "3",
+    "name": "Clover Salad",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 320,
+    "image": "/foodify/food_3.png",
+    "category": "Salad",
+    "veg": true
+  },
+  {
+    "id": "4",
+    "name": "Chicken Salad",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 480,
+    "image": "/foodify/food_4.png",
+    "category": "Salad",
+    "veg": false
+  },
+  {
+    "id": "5",
+    "name": "Lasagna Rolls",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 280,
+    "image": "/foodify/food_5.png",
+    "category": "Rolls",
+    "veg": true
+  },
+  {
+    "id": "6",
+    "name": "Peri Peri Rolls",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 240,
+    "image": "/foodify/food_6.png",
+    "category": "Rolls",
+    "veg": true
+  },
+  {
+    "id": "7",
+    "name": "Chicken Rolls",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 400,
+    "image": "/foodify/food_7.png",
+    "category": "Rolls",
+    "veg": false
+  },
+  {
+    "id": "8",
+    "name": "Veg Rolls",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 300,
+    "image": "/foodify/food_8.png",
+    "category": "Rolls",
+    "veg": true
+  },
+  {
+    "id": "9",
+    "name": "Ripple Ice Cream",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 280,
+    "image": "/foodify/food_9.png",
+    "category": "Deserts",
+    "veg": true
+  },
+  {
+    "id": "10",
+    "name": "Fruit Ice Cream",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 440,
+    "image": "/foodify/food_10.png",
+    "category": "Deserts",
+    "veg": true
+  },
+  {
+    "id": "11",
+    "name": "Jar Ice Cream",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 200,
+    "image": "/foodify/food_11.png",
+    "category": "Deserts",
+    "veg": true
+  },
+  {
+    "id": "12",
+    "name": "Vanilla Ice Cream",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 240,
+    "image": "/foodify/food_12.png",
+    "category": "Deserts",
+    "veg": true
+  },
+  {
+    "id": "13",
+    "name": "Chicken Sandwich",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 240,
+    "image": "/foodify/food_13.png",
+    "category": "Sandwich",
+    "veg": false
+  },
+  {
+    "id": "14",
+    "name": "Vegan Sandwich",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 360,
+    "image": "/foodify/food_14.png",
+    "category": "Sandwich",
+    "veg": true
+  },
+  {
+    "id": "15",
+    "name": "Grilled Sandwich",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 320,
+    "image": "/foodify/food_15.png",
+    "category": "Sandwich",
+    "veg": true
+  },
+  {
+    "id": "16",
+    "name": "Bread Sandwich",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 480,
+    "image": "/foodify/food_16.png",
+    "category": "Sandwich",
+    "veg": true
+  },
+  {
+    "id": "17",
+    "name": "Cup Cake",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 280,
+    "image": "/foodify/food_17.png",
+    "category": "Cake",
+    "veg": true
+  },
+  {
+    "id": "18",
+    "name": "Vegan Cake",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 240,
+    "image": "/foodify/food_18.png",
+    "category": "Cake",
+    "veg": true
+  },
+  {
+    "id": "19",
+    "name": "Butterscotch Cake",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 400,
+    "image": "/foodify/food_19.png",
+    "category": "Cake",
+    "veg": true
+  },
+  {
+    "id": "20",
+    "name": "Sliced Cake",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 300,
+    "image": "/foodify/food_20.png",
+    "category": "Cake",
+    "veg": true
+  },
+  {
+    "id": "21",
+    "name": "Garlic Mushroom ",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 280,
+    "image": "/foodify/food_21.png",
+    "category": "Pure Veg",
+    "veg": true
+  },
+  {
+    "id": "22",
+    "name": "Fried Cauliflower",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 440,
+    "image": "/foodify/food_22.png",
+    "category": "Pure Veg",
+    "veg": true
+  },
+  {
+    "id": "23",
+    "name": "Mix Veg Pulao",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 200,
+    "image": "/foodify/food_23.png",
+    "category": "Pure Veg",
+    "veg": true
+  },
+  {
+    "id": "24",
+    "name": "Rice Zucchini",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 240,
+    "image": "/foodify/food_24.png",
+    "category": "Pure Veg",
+    "veg": true
+  },
+  {
+    "id": "25",
+    "name": "Cheese Pasta",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 240,
+    "image": "/foodify/food_25.png",
+    "category": "Pasta",
+    "veg": true
+  },
+  {
+    "id": "26",
+    "name": "Tomato Pasta",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 360,
+    "image": "/foodify/food_26.png",
+    "category": "Pasta",
+    "veg": true
+  },
+  {
+    "id": "27",
+    "name": "Creamy Pasta",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 320,
+    "image": "/foodify/food_27.png",
+    "category": "Pasta",
+    "veg": true
+  },
+  {
+    "id": "28",
+    "name": "Chicken Pasta",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 480,
+    "image": "/foodify/food_28.png",
+    "category": "Pasta",
+    "veg": false
+  },
+  {
+    "id": "29",
+    "name": "Buttter Noodles",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 280,
+    "image": "/foodify/food_29.png",
+    "category": "Noodles",
+    "veg": true
+  },
+  {
+    "id": "30",
+    "name": "Veg Noodles",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 240,
+    "image": "/foodify/food_30.png",
+    "category": "Noodles",
+    "veg": true
+  },
+  {
+    "id": "31",
+    "name": "Somen Noodles",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 400,
+    "image": "/foodify/food_31.png",
+    "category": "Noodles",
+    "veg": true
+  },
+  {
+    "id": "32",
+    "name": "Cooked Noodles",
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "price": 300,
+    "image": "/foodify/food_32.png",
+    "category": "Noodles",
+    "veg": true
+  }
+]

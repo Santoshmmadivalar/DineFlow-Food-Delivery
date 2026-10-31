@@ -1,0 +1,28 @@
+.order{width:100%;max-width:1000px}
+.order-head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.order-head h3{margin:0}
+.live{display:flex;align-items:center;gap:6px;font-size:14px;color:#555}
+.live .dot{width:9px;height:9px;border-radius:50%;background:#bbb}.live .dot.on{background:#16a34a;animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.35}}
+.stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:14px 0}
+.stat{border:1px solid #e3e3e3;border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;background:#fff}
+.stat b{font-size:22px}.stat span{color:#777;font-size:13px}
+.order-filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.order-filters input{flex:1;min-width:220px}
+.order-filters input,.order-filters select{padding:9px 12px;border:1px solid #c9c9c9;border-radius:8px;font:inherit}
+.order-item{display:grid;grid-template-columns:48px 1.6fr 1fr 1fr;gap:16px;align-items:start;border:1px solid tomato;padding:18px;margin:16px 0;font-size:14px;color:#505050;border-radius:12px;background:#fff}
+.order-item img{width:44px}
+.order-item-food,.order-item-name{font-weight:600;color:#222;margin:0 0 4px}
+.order-item-name{margin-top:10px}
+.order-item-address{margin-bottom:6px}.order-item-address p{margin:0}
+.order-item-phone{margin:0 0 6px}
+.order-note{margin:0 0 3px;color:#a35f00;font-size:13px}
+.order-meta{margin:0 0 6px;color:#777;font-size:12px}
+.order-money{display:flex;flex-direction:column;gap:3px}.order-money small{color:#666}.order-money .paid{color:#16a34a;font-weight:600}.order-money .due{color:#a35f00;font-weight:600}
+.order-actions{display:flex;flex-direction:column;gap:8px;align-items:stretch}
+.order-actions select{padding:9px;border:1px solid tomato;background:#ffe8e4;font:inherit;border-radius:8px}
+.order-actions .go{padding:9px;border:0;border-radius:8px;background:tomato;color:#fff;font:inherit;cursor:pointer}
+.link{background:none;border:0;color:#2563eb;cursor:pointer;padding:0;text-align:left;font:inherit;font-size:13px}
+.log{margin:6px 0 0;padding-left:18px}.log small{color:#777;margin-left:6px}
+.empty{color:#777;padding:20px 0}
+@media(max-width:900px){.order-item{grid-template-columns:44px 1fr}.order-money,.order-actions{grid-column:2}}
