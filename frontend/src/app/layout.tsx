@@ -81,7 +81,12 @@ export const metadata: Metadata = {
       }
     ]
   },
-  metadataBase: new URL(`${process.env.NEXT_PUBLIC_APP_URL ?? 'http://localhost:3000'}`),
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_APP_URL ||
+      (process.env.NODE_ENV === 'production'
+        ? 'https://frontend-xi-three-68.vercel.app'
+        : 'http://localhost:3000')
+  ),
   openGraph: {
     title: {
       template: '%s | DineFlow',

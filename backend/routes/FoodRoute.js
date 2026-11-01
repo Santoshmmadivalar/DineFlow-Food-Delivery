@@ -1,6 +1,6 @@
 import express from "express";
 import multer from "multer"; // image storage
-import { addFood, listFood, removeFood, updateFood } from "../controllers/foodcontroller.js";
+import { addFood, listFood, removeFood, updateFood, seedMenu } from "../controllers/foodcontroller.js";
 import adminAuth from "../middleware/adminAuth.js";
 
 const foodRouter = express.Router();
@@ -18,6 +18,8 @@ const upload = multer({
 // adding and removing dishes is admin only; the menu list is public
 foodRouter.post("/add", adminAuth, upload.single("image"), addFood);
 foodRouter.get("/list", listFood);
+foodRouter.get("/seed", seedMenu);
+foodRouter.post("/seed", seedMenu);
 foodRouter.post("/remove", adminAuth, removeFood);
 foodRouter.post("/update", adminAuth, upload.single("image"), updateFood);
 

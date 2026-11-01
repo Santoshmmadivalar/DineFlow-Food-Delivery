@@ -53,7 +53,11 @@ const checkCoupon = (req, res) => {
 
 // place an order. Prices are always read from the database, never trusted from the browser.
 const placeOrder = async (req, res) => {
-  const frontend_url = process.env.FRONTEND_URL || "http://localhost:3000";
+  const frontend_url =
+    process.env.FRONTEND_URL ||
+    (process.env.NODE_ENV === "production"
+      ? "https://frontend-xi-three-68.vercel.app"
+      : "http://localhost:3000");
   let newOrder;
   try {
     const { userId, address, paymentMethod = "cod" } = req.body;

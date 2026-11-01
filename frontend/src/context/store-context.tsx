@@ -10,7 +10,13 @@ export type Food = { _id: string; name: string; description: string; price: numb
 type Cart = Record<string, number>
 export type Coupon = { code: string; discount: number; label?: string }
 
-export const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000'
+export const BACKEND =
+  process.env.NEXT_PUBLIC_BACKEND_URL ||
+  (typeof window !== 'undefined' && !window.location.hostname.includes('localhost')
+    ? 'https://dineflow-food-delivery-3.onrender.com'
+    : process.env.NODE_ENV === 'production'
+      ? 'https://dineflow-food-delivery-3.onrender.com'
+      : 'http://localhost:4000')
 export const DELIVERY_FEE = 40
 export const FREE_DELIVERY_ABOVE = 599
 export const CATEGORIES = ['Salad', 'Rolls', 'Deserts', 'Sandwich', 'Cake', 'Pure Veg', 'Pasta', 'Noodles']

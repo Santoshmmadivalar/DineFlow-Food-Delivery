@@ -11,6 +11,7 @@ node_modules/
 backend/.env
 frontend/.env.local
 admin/.env
+!frontend/.env.production
 
 # Next.js & Build outputs
 .next/
