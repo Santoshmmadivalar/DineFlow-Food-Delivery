@@ -18,7 +18,8 @@ const adminLogin = (req, res) => {
   if (!same(email, ADMIN_EMAIL.trim().toLowerCase()) || !same(password, ADMIN_PASSWORD)) {
     return res.json({ success: false, message: "Wrong admin email or password" });
   }
-  res.json({ success: true, token: jwt.sign({ role: "admin" }, JWT_SECRET, { expiresIn: "12h" }) });
+  const secret = JWT_SECRET || "dineflow-jwt-super-secret-key-2025";
+  res.json({ success: true, token: jwt.sign({ role: "admin" }, secret, { expiresIn: "12h" }) });
 };
 
 export { adminLogin };
